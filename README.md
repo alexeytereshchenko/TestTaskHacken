@@ -38,7 +38,13 @@ This is a Spring Boot application running on Java 21 with Gradle.
     docker run -p 8080:8080 spring-boot-app
     ```
 
-   The application will be accessible at `http://localhost:8080`.
+   The application will be accessible at `http://localhost:8080/swagger-ui/index.html`.
+
+(Spring boot actuator)[https://www.baeldung.com/spring-boot-actuators] (from /actuator)
+
+        /actuator/metrics details metrics of our application. This might include generic metrics as well as custom ones.
+        /actuator/health summarizes the health status of our application.
+
 
 ## Additional Notes
 
